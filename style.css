@@ -1,0 +1,36 @@
+a {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+}
+
+.game-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
