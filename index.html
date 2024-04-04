@@ -9,12 +9,20 @@
 <body>
 <div class="center">
     <div>
-    <div class="game-display">
-        <p class="player">player</p>
-        <p class="computer">computer</p>
-    </div>
     <div class="counter-div">
-        <p class="counter">counter</p>
+        <div class="player-div">
+            <p class="counter" id="player-counter">0</p>
+            <p class="pick" id="player-pick"></p>
+            <p class="pick" >Player</p>
+        </div>
+            <div class="player-div">
+            <p class="counter" id="cpu-counter">0</p>
+            <p class="pick" id="cpu-pick"></p>
+            <p class="pick" >CPU</p>
+        </div>
+    </div>
+    <div class="display-message">
+        <p id="message"></p>
     </div>
     <div class="buttons">
         <a class="rock" onclick="playerRock()">Rock</a>

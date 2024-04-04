@@ -24,13 +24,37 @@ a {
     height: 80vh;
 }
 
-.counter {
+.counter-div {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .game-display {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.player-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.display-message {
+    display: flex;
+    justify-content: center;
+}
+
+.pick {
+    display: flex;
+    justify-content: center;
 }
