@@ -12,7 +12,7 @@ This is a simple web-based implementation of the classic game "Rock, Paper, Scis
 
 ## Demo
 
-You can view a live demo of the game [here]([#](https://cfisher21.github.io/RockPaperScissors/)).
+You can view a live demo of the game [here](https://cfisher21.github.io/RockPaperScissors/).
 
 ## How to Play
 
