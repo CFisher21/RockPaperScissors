@@ -77,3 +77,25 @@ a {
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 600px)  {     
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a {
+        width: 100px;
+        margin: 8px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+   
+    
+}
